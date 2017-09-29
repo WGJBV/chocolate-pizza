@@ -76,6 +76,7 @@ main p {
 
 #recipeCard ul {
   display: inline-block;
+  list-style-type: square;
   margin: 40px 100px 120px 60px;
   background-repeat: no-repeat;
   font-family: 'Comic Sans MS', cursive, sans-serif;
