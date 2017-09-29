@@ -19,6 +19,7 @@ header h5 {
 header ul li {
   display: inline-block;
 }
+
 header hr {
   margin-top: 40px;
   height: 6px;
@@ -26,6 +27,7 @@ header hr {
   repeat-x 0 0;
   border: 0;
   }
+
 nav {
   margin: 0px auto;
 }
@@ -87,14 +89,14 @@ main p {
 #copyright {
   color : gray;
   font-size : 12px;
+  text-align: center;
 }
-#copyright ul li {
-  margin-left: 400px;
-}
+
 #copyright hr {
   width : 455px;
   display: inline-block;
 }
+
 #copyright img {
   display: inline;
 }
@@ -115,11 +117,15 @@ footer hr {
 }
 
 button {
-  padding : 10px 32px;
+  padding : 10px 30px;
   color : white;
   font-family : "Roboto Condensed", serif;
   background-color : blue;
 }
 footer ul li {
   display: inline-block;
+}
+
+footer ul li:last-child {
+  margin-left: 60px;
 }
