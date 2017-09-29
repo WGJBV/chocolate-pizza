@@ -1,0 +1,19 @@
+header h2 {
+  font-family: "Pacifico", serif;
+  font-size: 48px;
+}
+footer {
+  width :960px;
+}
+footer ul li {
+  display: inline-block;
+}
+#copyright {
+  color : gray;
+  text-align : center;
+}
+hr {
+  height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
