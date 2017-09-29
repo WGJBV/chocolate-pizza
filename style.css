@@ -1,0 +1,30 @@
+header {
+  width: 960px;
+  height: 80px;
+  background-color: grey;
+}
+
+nav {
+  margin: 0px auto;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 2px;
+  margin-bottom: 30px;
+}
+
+main article {
+  width: 960px
+  margin:  30px auto;
+}
+
+#topLogo img {
+  float: left;
+  margin-right: 5px;
+}
+
+header hr {
+  margin-top: 10px;
+}
