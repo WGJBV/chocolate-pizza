@@ -10,7 +10,14 @@ footer ul li {
 }
 #copyright {
   color : gray;
-  text-align : center;
+  font-size : 12px;
+}
+#copyright hr {
+  width : 459px;
+  display: inline-block;
+}
+#copyright img {
+  display: inline;
 }
 hr {
   height: 6px;
