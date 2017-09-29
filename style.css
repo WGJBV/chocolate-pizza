@@ -5,6 +5,7 @@ header {
   height: 70px;
 }
 
+
 header h2 {
   font-family: 'Pacifico';
   margin: 0px;
@@ -12,12 +13,19 @@ header h2 {
 
 header h5 {
   margin: 0px;
+  font-family : 'Roboto Condensed', serif;
 }
 
 header ul li {
   display: inline-block;
 }
-
+header hr {
+  margin-top: 40px;
+  height: 6px;
+  background: url('http://ibrahimjabbari.com/english/images/hr-11.png')
+  repeat-x 0 0;
+  border: 0;
+  }
 nav {
   margin: 0px auto;
 }
@@ -50,6 +58,8 @@ main p {
 
 #articleInfo {
   float: left;
+  margin-bottom: 20px;
+  font-family : "Roboto Condensed", serif;
 }
 
 #printArticle {
@@ -78,8 +88,11 @@ main p {
   color : gray;
   font-size : 12px;
 }
+#copyright ul li {
+  margin-left: 400px;
+}
 #copyright hr {
-  width : 459px;
+  width : 455px;
   display: inline-block;
 }
 #copyright img {
@@ -88,6 +101,7 @@ main p {
 
 footer {
   width :960px;
+  margin-left: 200px;
 }
 footer ul li {
   display: inline-block;
@@ -101,9 +115,10 @@ footer hr {
 }
 
 button {
-  padding : 15px 32px;
+  padding : 10px 32px;
+  color : white;
   font-family : "Roboto Condensed", serif;
-  background-color : gray;
+  background-color : blue;
 }
 footer ul li {
   display: inline-block;
