@@ -1,6 +1,6 @@
 header {
   width: 960px;
-  height: 80px;
+  height: 60px;
   background-color: grey;
 }
 
@@ -15,11 +15,6 @@ nav ul li {
   margin-bottom: 30px;
 }
 
-main article {
-  width: 960px
-  margin:  30px auto;
-}
-
 #topLogo img {
   float: left;
   margin-right: 5px;
@@ -27,4 +22,32 @@ main article {
 
 header hr {
   margin-top: 10px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+main h1 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+#articleInfo {
+  float: left;
+}
+
+#printArticle {
+  display: inline-block;
+  float: right;
+}
+
+#recipeCard {
+  background-image: url('images/list-bg.png');
+}
+
+#recipeCard ul {
+  display: inline-block;
+  padding: 25px;
+  margin-right: 200px;
 }
