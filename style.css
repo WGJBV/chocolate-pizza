@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   width: 960px;
   margin-left: 200px;
@@ -16,6 +17,15 @@ header hr {
   repeat-x 0 0;
   border: 0;
   }
+=======
+header h2 {
+  font-family: "Pacifico", serif;
+  font-size: 48px;
+}
+nav {
+  margin: 0px auto;
+}
+>>>>>>> db7ceeb5ec9ed1888299e6091672b8d6149d10ec
 
 nav ul li {
   display: inline-block;
@@ -94,5 +104,33 @@ footer hr {
   height: 6px;
 	background: url('http://ibrahimjabbari.com/english/images/hr-11.png')
   repeat-x 0 0;
+  border: 0;
+}
+footer {
+  width :960px;
+}
+button {
+  padding : 15px 32px;
+  font-family : "Roboto Condensed", serif;
+  background-color : gray;
+}
+footer ul li {
+  display: inline-block;
+}
+#copyright {
+  color : gray;
+  font-size : 15px;
+  display : block;
+}
+#copyright hr {
+  width : 459px;
+  display: inline-block;
+}
+#copyright img {
+  display: inline;
+}
+footer hr {
+  height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
 }
