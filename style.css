@@ -5,6 +5,20 @@ header {
   height: 70px;
 }
 
+
+header h2 {
+  font-family: 'Pacifico';
+  margin: 0px;
+}
+
+header h5 {
+  margin: 0px;
+  font-family : 'Roboto Condensed', serif;
+}
+
+header ul li {
+  display: inline-block;
+}
 header hr {
   margin-top: 40px;
   height: 6px;
@@ -12,18 +26,14 @@ header hr {
   repeat-x 0 0;
   border: 0;
   }
-header h5 {
-  font-family : 'Roboto Condensed', serif;
-}
 nav {
   margin: 0px auto;
 }
 
-nav ul li {
-  display: inline-block;
+nav li {
   float: right;
+  display: inline-block;
   margin-right: 2px;
-  margin-bottom: 30px;
 }
 
 main {
@@ -32,8 +42,9 @@ main {
 }
 
 main h1 {
-  font-family: 'Roboto Condensed', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 36px;
+  margin: 0px;
 }
 
 main small {
@@ -41,7 +52,7 @@ main small {
 }
 
 main p {
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
 }
 
@@ -53,9 +64,8 @@ main p {
 
 #printArticle {
   display: inline-block;
-  float: right;
-  margin-right: 60px;
-  margin-top: 40px;
+  margin-left: 650px;
+  margin-top: 60px;
 }
 
 #recipeCard {
@@ -64,8 +74,8 @@ main p {
 
 #recipeCard ul {
   display: inline-block;
-  /*padding: px;*/
-  margin: 40px 150px 120px 20px;
+  margin: 40px 100px 120px 60px;
+  background-repeat: no-repeat;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
