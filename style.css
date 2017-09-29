@@ -1,4 +1,4 @@
-header h2 {
+h2 {
   font-family: "Pacifico", serif;
   font-size: 48px;
 }
@@ -19,8 +19,67 @@ footer ul li {
 #copyright img {
   display: inline;
 }
-hr {
+footer hr {
   height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+nav {
+  margin: 0px auto;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 2px;
+  margin-bottom: 30px;
+}
+
+#topLogo img {
+  float: left;
+  margin-right: 5px;
+}
+
+header hr {
+  margin-top: 40px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+main h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 36px;
+}
+
+main small {
+  font-size: 8px;
+}
+
+main p {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+#articleInfo {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#printArticle {
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+#recipeCard {
+  background-image: url('images/list-bg.png');
+}
+
+#recipeCard ul {
+  display: inline-block;
+  padding: 25px;
+  margin-right: 200px;
 }
