@@ -1,46 +1,27 @@
-h2 {
+header {
+  width: 960px;
+  margin-left: 200px;
+  height: 70px;
+}
+
+header h2 {
   font-family: "Pacifico", serif;
-  font-size: 48px;
+  font-size: 28px;
 }
-footer {
-  width :960px;
-}
-footer ul li {
-  display: inline-block;
-}
-#copyright {
-  color : gray;
-  font-size : 12px;
-}
-#copyright hr {
-  width : 459px;
-  display: inline-block;
-}
-#copyright img {
-  display: inline;
-}
-footer hr {
+
+header hr {
+  margin-top: 40px;
   height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-nav {
-  margin: 0px auto;
-}
+  background: url('http://ibrahimjabbari.com/english/images/hr-11.png')
+  repeat-x 0 0;
+  border: 0;
+  }
 
 nav ul li {
   display: inline-block;
   float: right;
   margin-right: 2px;
   margin-bottom: 30px;
-}
-
-#topLogo img {
-  float: left;
-  margin-right: 5px;
-}
-
-header hr {
-  margin-top: 40px;
 }
 
 main {
@@ -80,6 +61,38 @@ main p {
 
 #recipeCard ul {
   display: inline-block;
-  padding: 25px;
-  margin-right: 200px;
+  /*padding: px;*/
+  margin: 40px 150px 120px 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#topLogo img {
+  float: left;
+  margin-right: 5px;
+}
+
+#copyright {
+  color : gray;
+  font-size : 12px;
+}
+#copyright hr {
+  width : 459px;
+  display: inline-block;
+}
+#copyright img {
+  display: inline;
+}
+
+footer {
+  width :960px;
+}
+footer ul li {
+  display: inline-block;
+}
+
+footer hr {
+  height: 6px;
+	background: url('http://ibrahimjabbari.com/english/images/hr-11.png')
+  repeat-x 0 0;
+  border: 0;
 }
